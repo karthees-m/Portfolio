@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="Portfolio.css">
+    <link rel="icon" href="./Images/Kfx.png">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <nav class="navbar">
+            <img src="./Images/Kfx.png" alt="">
+            <h1>My Portfolio</h1>
+            <i id="bar" class="fa-solid fa-bars" style="color: #ffffff;"></i>
+            <ul id="nav" class="navShow">
+                <li><a class="active" href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#service">Service</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Page -->
+    <br id="home">
+    <section class="home">
+        <div class="home-content">
+            <p class="p1"> Hi, It's Kartheeswaran
+            <h1>
+                <p>I'm a</p>Web Designer
+            </h1>
+            </p>
+            <p class="p2">I create modern and attractive website designs.
+                I develop responsive, fast, and user-friendly websites.
+                Always exploring new ideas to make the web better.
+            </p>
+            <button class="btn" href="#contact">Hire Me</button>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/Kartheeswaran"><i class="fa fa-facebook"></i></a>
+                <a href="https://www.instagram.com/kartheeswaran"><i class="fa fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/Kartheeswaran"><i class="fa fa-linkedin"></i></a>
+                <a href=""><i class="fa fa-whatsapp"></i></a>
+            </div>
+        </div>
+        <div class="home-img">
+            <img src="./Images/boy2.png" width="100%" alt="">
+        </div>
+    </section>
+    <br>
+    <!-- About Page -->
+    <br id="about">
+    <section class="about">
+        <h1>About</h1>
+        <div class="page">
+            <div class="about-img">
+                <img src="./Images/Boy1.png" width="100%" alt="">
+            </div>
+            <div class="about-content">
+                <h2>Welcome</h2>
+                <p>
+                    <span style="color: rgb(127, 255, 223); font-weight: bold;">I'm Kartheeswaran</span>, a recent
+                    graduate with a
+                    B.Sc. in Information Technology from <span
+                        style="color: rgb(127, 255, 223); font-weight: bold;">Manonmaniam Sundaranar
+                        University.</span>
+                    Web Design & Web Development, along with programming knowledge in
+                    <span style="color: rgb(127, 255, 223); font-weight: bold; ">C, Java, and Python.</span>
+                    Beyond academics, I enjoy watching movies, playing cricket,
+                    and exploring video games, which help me stay creative and balanced.
+                    “I love solving problems with code while bringing creativity into every project I work on.
+                    My journey is all about designing, developing, and constantly exploring new ideas in technology.”
+                </p>
+                <br>
+                <hr>
+                <h3>Skills</h3>
+                <div class="skills" id="skills">
+                    <div><i class="fa-brands fa-html5" style="color: #000000;"></i></div>
+                    <div><i class="fa-brands fa-css3-alt" style="color: #000000;"></i></div>
+                    <div><i class="fa-brands fa-js" style="color: #000000;"></i></div>
+                    <div><i class="fa-brands fa-python" style="color: #000000;"></i></div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Service Page -->
+    <br id="service">
+    <section class="services">
+        <h2>Services</h2>
+        <div class="box">
+            <div class="design">
+                <img src="./Images/Web design.png" alt="Web Design">
+                <h1>Website Designing</h1>
+                <p>I design modern, user-friendly, and visually appealing websites with a focus on clean layouts and
+                    smooth navigation.</p>
+            </div>
+            <div class="design">
+                <img src="./Images/develop.png" alt="Web Development">
+                <h1>Web Development</h1>
+                <p>I develop responsive and fast-loading websites using HTML, CSS, JavaScript, and backend integration
+                    for seamless performance.</p>
+            </div>
+            <div class="design">
+                <img src="./Images/video.png" alt="Editing">
+                <h1>Photo & Video Editing</h1>
+                <p>Professional photo retouching and video editing to create attractive visuals for social media,
+                    presentations, and projects.</p>
+            </div>
+            <div class="design">
+                <img src="./Images/teaching.png" alt="UI/UX">
+                <h1>UI and UX Designing</h1>
+                <p>I create user-friendly interfaces with smooth user experiences by combining creativity, simplicity,
+                    and functionality.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Page-->
+    <br id="contact">
+    <section class="contact-section">
+        <div class="imge">
+            <img src="./Images/man.png" alt="">
+        </div>
+        <div class="contact">
+            <h1>Contact</h1>
+            <form action="">
+                <input class="" type="text" placeholder="Name">
+                <input class="" type="email" placeholder="Email">
+                <input class="" type="text" placeholder="Number">
+                <input class="describe" type="text" placeholder="Describe">
+                <button id="btm" onclick="show()" type="button">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p><i class="fa fa-copyright"></i>Copyright: 2025</p>
+    </footer>
+
+    <script src="Portfolio.js"></script>
+    <script src="https://kit.fontawesome.com/1b51e6235e.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
